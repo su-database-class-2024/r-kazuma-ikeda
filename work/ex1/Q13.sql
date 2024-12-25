@@ -1,0 +1,2 @@
+SELECT address.address_id,address.address,address.address2,address.district,address.city_id,address.postal_code,address.phone,address.last_update,store.store_id,store.manager_staff_id
+    FROM store, address;
