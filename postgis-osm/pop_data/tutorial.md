@@ -85,7 +85,7 @@ osm2pgsql --create --database=gisdb --slim --style=./default.style -U postgres -
 ```
 unzip /work/data/pop_data/data/mesh1.zip -d /work/data/pop_data/data
 ```
-
++
 #### 3.1.1. sqlコマンドの作成
 shp2pgsqlでshpファイルをpostGISにインポートするためのsqlコマンドを作成する。
 
@@ -114,6 +114,9 @@ psql -U postgres -d gisdb -f /work/data/pop_data/data/mesh1/mesh1.sql
 #### 3.2.1. gisdbにアクセス
 ```
 psql -U postgres -d gisdb
+#memo:[his]を付け足した疑惑
+#psql -U postgres -d gisdbhis
+
 ```
 
 #### 3.2.2. テーブル作成
