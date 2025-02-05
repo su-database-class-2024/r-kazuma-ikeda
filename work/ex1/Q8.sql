@@ -1,0 +1,1 @@
+SELECT * FROM city ORDER BY city LIMIT 10;
